@@ -398,9 +398,9 @@
     }
     .style-2:focus,
     .style-2.focus {
-        color: #ff6347;
+        color: #6600ff;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #6600ff;
     }
     form input,
     input[placeholder],
