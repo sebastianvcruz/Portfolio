@@ -74,7 +74,7 @@
         right: 1.6vw;
     }
     .intro-name span {
-        color: #ff6347;
+        color: #6600ff;
         font-size: 2vw;
         font-weight: bold;
     }
@@ -331,7 +331,7 @@
     }
     .contact-details div a h3:hover,
     .contact-details div a:hover {
-        color: #ff6347;
+        color: #6600ff;
         transition: all 0.3s ease-in-out;
     }
     .social {
@@ -381,9 +381,9 @@
     }
     .style-1 input[type="text"]:focus,
     .style-1 input[type="text"].focus {
-        color: #ff6347;
+        color: #6600ff;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #6600ff;
     }
     .style-2 {
         color: #000000;
@@ -513,7 +513,7 @@
         right: 1vw;
         bottom: 1vw;
         background-color: #ffffff;
-        color: #ff6347;
+        color: #6600ff;
         z-index: 20;
     }
     .project-title-description {
