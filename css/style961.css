@@ -20,7 +20,12 @@
         display: none;
     }
     .navbar {
-        background-color: #ffffff;
+                 background-color: #ffffff;
+        background-image: url(bg.jpg); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
         margin: 0;
         padding: 0;
         width: 25vw;
@@ -38,7 +43,7 @@
         position: absolute;
         top: 2vw;
         right: 2vw;
-        background-color: #ffffff;
+        
     }
     .logo img {
         margin: 0;
@@ -59,7 +64,7 @@
         right: 2vw;
     }
     .intro span {
-        color: #ff6347;
+        color: #4f5259;
     }
     .intro-name {
         max-width: 80%;
@@ -72,7 +77,7 @@
         right: 2vw;
     }
     .intro-name span {
-        color: #ff6347;
+        color: #6600ff;
         font-size: 2.6vw;
         font-weight: bold;
     }
@@ -98,8 +103,8 @@
         outline: 0;
     }
     .navbar ul a:hover {
-        color: #ff6347;
-        border-bottom: 1px dotted #ff6347;
+        color: #6600ff;
+        border-bottom: 1px dotted #6600ff;
     }
     .important-social-links {
         max-width: 80%;
@@ -120,7 +125,7 @@
     }
     .important-social-icons a:hover,
     svg:hover {
-        fill: #ff6347;
+        fill: #6600ff;
     }
     .copyright {
         margin: 0;
@@ -185,7 +190,7 @@
         transition: all 0.3s ease-in-out;
     }
     .popup .close:hover {
-        fill: #ff6347;
+        fill: #6600ff;
     }
     .popup .button {
         display: inline-block;
@@ -203,9 +208,9 @@
         transition: all 0.3s ease-in-out;
     }
     .popup .button:hover {
-        background-color: #ff6347;
+        background-color: #6600ff;
         color: #ffffff;
-        border-color: #ff6347;
+        border-color: #6600ff;
     }
     .popup-content {
         width: 100%;
@@ -214,7 +219,7 @@
     .popup-content h1 {
         font-size: 5.8vw;
         font-weight: 200;
-        color: #ff6347;
+        color: #6600ff;
         text-align: center;
     }
     .popup-content h3 {
@@ -228,7 +233,7 @@
         color: #000000;
     }
     .popup-content span {
-        color: #ff6347;
+        color: #6600ff;
     }
     /***************/
     /*Popup Box End*/
@@ -263,7 +268,7 @@
     .what-i-do div svg {
         width: 8vw;
         height: 8vw;
-        fill: #ff6347;
+        fill: #6600ff;
         position: relative;
         left: 50%;
         transform: translate(-50%, 0);
@@ -308,7 +313,7 @@
     .contact-details div svg {
         width: 8vw;
         height: 8vw;
-        fill: #ff6347;
+        fill: #6600ff;
         position: relative;
         left: 50%;
         transform: translate(-50%, 0);
@@ -319,7 +324,7 @@
     }
     .contact-details div a h3:hover,
     .contact-details div a:hover {
-        color: #ff6347;
+        color: #6600ff;
         transition: all 0.3s ease-in-out;
     }
     .social {
@@ -341,7 +346,7 @@
         transition: all 0.3s ease-in-out;
     }
     .social a svg:hover {
-        fill: #ff6347;
+        fill: #6600ff;
     }
     /*Form Start*/
     /*Form Start*/
@@ -369,9 +374,9 @@
     }
     .style-1 input[type="text"]:focus,
     .style-1 input[type="text"].focus {
-        color: #ff6347;
+        color: #6600ff;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #6600ff;
     }
     .style-2 {
         color: #000000;
@@ -386,9 +391,9 @@
     }
     .style-2:focus,
     .style-2.focus {
-        color: #ff6347;
+        color: #6600ff;
         width: 100%;
-        border: solid 2px #ff6347;
+        border: solid 2px #6600ff;
     }
     form input,
     input[placeholder],
@@ -397,23 +402,23 @@
         font-weight: normal;
     }
     .send-button {
-        color: #ff6347;
+        color: #6600ff;
         margin: 3vw 0;
         padding: 2.4vw;
         width: 100%;
         background: rgba(255, 255, 255, 0);
-        border: solid 2px #ff6347;
+        border: solid 2px #6600ff;
         transition: all 0.5s ease-in-out;
         outline: 0;
     }
     .send-button:hover,
     .send-button.hover {
-        background-color: #ff6347;
+        background-color: #6600ff;
         cursor: pointer;
         color: #ffffff;
     }
     .send-button:active {
-        background-color: #ff6347;
+        background-color: #6600ff;
         color: #ffffff;
     }
     .success {
@@ -500,7 +505,7 @@
         right: 1vw;
         bottom: 1vw;
         background-color: #ffffff;
-        color: #ff6347;
+        color: #6600ff;
         z-index: 20;
     }
     .project-title-description {

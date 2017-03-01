@@ -20,7 +20,12 @@
         display: none;
     }
     .navbar {
-        background-color: #ffffff;
+          background-color: #ffffff;
+        background-image: url(bg.jpg); 
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
         margin: 0;
         padding: 0;
         width: 20vw;
