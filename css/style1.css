@@ -259,7 +259,7 @@
     .popup-content h1 {
         font-size: 12vw;
         font-weight: 200;
-        color: #6600ff;
+        color: #4f5259;
         text-align: center;
     }
     .popup-content h3 {
@@ -308,7 +308,7 @@
         height: 16vw;
         margin: 0;
         padding: 0;
-        fill: #6600ff;
+        fill: #4f5259;
         position: relative;
         left: 50%;
         transform: translate(-50%, 0);
@@ -350,12 +350,12 @@
         width: 100%;
         box-sizing: border-box;
     }
-    .contact-details div svg {
+    .contact-details div  {
         margin: 0;
         padding: 0;
         width: 16vw;
         height: 16vw;
-        fill: #6600ff;
+        fill: #4f5259;
         position: relative;
         left: 50%;
         transform: translate(-50%, 0);
