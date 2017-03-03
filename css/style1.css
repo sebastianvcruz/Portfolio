@@ -350,7 +350,7 @@
         width: 100%;
         box-sizing: border-box;
     }
-    .contact-details div  {
+    .contact-details div svg{
         margin: 0;
         padding: 0;
         width: 16vw;
